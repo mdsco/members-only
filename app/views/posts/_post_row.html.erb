@@ -1,0 +1,7 @@
+<tr>
+  <% if user_signed_in? %>
+    <td><%= post.author.email %></td>
+  <% end %>
+  <td><%= post.title %></td>
+  <td><%= post.body %></td>
+</tr>
